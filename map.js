@@ -15,7 +15,7 @@ const squared = numbers.map((num) => num * num);
 const friends = ["zaber", "abul", "nobel", "kabir"];
 
 const nameLengths = friends.map((name) => name.length);
-const firstLetters = friends.map((name) => name[0].toLocaleUpperCase());
+const firstLetters = friends.map((name) => name[0].toLocaleUpperCase);
 const result = numbers.map((num, index) => {
   console.log(num * index);
   return index;
